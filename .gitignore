@@ -1,0 +1,14 @@
+# Ignorar entornos virtuales
+.venv
+.venv-1
+
+# Ignorar compilaciones y archivos grandes
+build/
+*.spec
+__pycache__/
+*.pyc
+assets/
+dist/assets/app
+dist/assets/app/app.zip
+# Mantener dist porque ahí está la web
+!dist/
